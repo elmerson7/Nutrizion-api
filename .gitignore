@@ -1,0 +1,24 @@
+# Dependencias de Composer
+vendor/
+
+# Configuración sensible
+.env
+storage/firebase_credentials.json
+src/config/api_key.php
+src/config/env.php
+
+# Logs y caché
+logs/
+storage/logs/
+storage/cache/
+*.log
+
+# Archivos temporales y de sistema
+*.cache
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Docker y Composer (si no quieres versionarlos)
+docker/php.ini
+composer.lock
