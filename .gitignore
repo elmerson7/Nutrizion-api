@@ -4,11 +4,9 @@ vendor/
 # Configuración sensible
 .env
 storage/firebase_credentials.json
-src/config/api_key.php
-src/config/env.php
+
 
 # Logs y caché
-logs/
 storage/logs/*
 storage/cache/
 *.log

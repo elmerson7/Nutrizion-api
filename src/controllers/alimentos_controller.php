@@ -1,7 +1,7 @@
 <?php 
 
 require_once __DIR__ . '/../config/firebase.php';
-require_once __DIR__ . '/../helpers.php';
+require_once __DIR__ . '/../helpers/cache.php';
 
 class alimentos_controller
 {
