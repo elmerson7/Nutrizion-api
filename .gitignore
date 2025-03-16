@@ -9,7 +9,7 @@ src/config/env.php
 
 # Logs y caché
 logs/
-storage/logs/
+storage/logs/*
 storage/cache/
 *.log
 
